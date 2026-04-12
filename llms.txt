@@ -1,0 +1,21 @@
+# Living Vision — llms.txt
+
+> Living Vision is a visionary leadership coaching company founded by Aaron Velky. We help high-performing entrepreneurs who have achieved conventional success but feel stuck, restless, or ready for a deeper level of impact and identity.
+
+## Programs
+
+- Visionary Leadership Accelerator (90-day): /accelerator
+- Elite 1:1 Coaching: /elite-coaching
+- 3-Day Visionary Leadership Retreats: /retreats
+
+## About
+
+- Founder Aaron Velky: /about
+
+## Content
+
+- Blog / Insights: /blog
+
+## Contact
+
+- Start Here: /start

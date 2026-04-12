@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Start a Conversation — Living Vision</title>
+  <meta name="description" content="A 30-minute call with Aaron. No pitch. Just an honest conversation about where you are and whether this is the right fit.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation — Funnel Header -->
+  <nav class="nav nav-funnel">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo"><img src="LIVING VISION TITLE.jpg" alt="Living Vision" class="nav-logo-img"></a>
+    </div>
+  </nav>
+
+  <!-- Video Section -->
+  <section class="booking-video">
+    <div class="container">
+      <div class="booking-video-wrapper">
+        <!-- Replace src with the actual booking/intro video -->
+        <video class="booking-video-player" controls playsinline>
+          <source src="booking-video.mp4" type="video/mp4">
+        </video>
+        <div class="booking-video-placeholder" aria-label="Video placeholder">
+          <p>Video — Aaron's personal message</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Form -->
+  <section class="booking-form-section">
+    <div class="container">
+      <div class="booking-form-inner">
+        <p class="booking-context">A 30-minute call with Aaron. No pitch. Just an honest conversation about where you are and whether this is the right fit.</p>
+        <form class="booking-form" action="#" method="post">
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required autocomplete="name">
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+          </div>
+          <div class="form-field">
+            <label for="message">What's bringing you here?</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-large">Start with a real conversation →</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <p class="footer-logo">Living Vision</p>
+        <p class="footer-copy">&copy; 2026 Living Vision. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
